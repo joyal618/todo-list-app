@@ -1,0 +1,51 @@
+.todo-items-container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid;
+    height: 8vh;
+    width: 70vw;
+    margin-left: 10vw;
+    align-items: center;
+    margin-top: 2vh;
+    border-radius:5px;
+    background-color: rgba(199, 199, 199, 0.2);
+    justify-content: space-between;
+    color: white;
+    
+    
+
+}
+
+.td-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.td{
+    height: 3vh;
+    width: auto;
+    margin-left:20px;
+    padding:2px;
+    border-radius:5px;
+    display: flex;
+    align-items:center;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:white;
+}
+
+.todo-buttons Button{
+    margin-right: 20px;
+}
+
+.completed-button{
+    background-color: rgb(16, 211, 16);
+}
+
+
+#completed:disabled{
+    color: white;
+    background-color: rgb(185, 185, 185,0.5);
+    /* width: 30px; */
+}
